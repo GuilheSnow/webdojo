@@ -1,20 +1,12 @@
 const { defineConfig } = require("cypress");
 
 module.exports = defineConfig({
-  allowCypressEnv: false,
-
   e2e: {
+    // Desativa a execução automática ao salvar arquivos
+    watchForFileChanges: false,
+    
     setupNodeEvents(on, config) {
-      // implement node event listeners here
+      // implemente node event listeners aqui
     },
   },
-});
-
-module.exports = defineConfig({
-  e2e: {
-    watchForFileChanges: false, // O teste só rodará se você clicar no botão de "refresh" no navegador do Cypress
-    setupNodeEvents(on, config) {
-      // implement node event listeners here
-    },
-  },
-});
+})
