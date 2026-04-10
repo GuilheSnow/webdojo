@@ -31,6 +31,12 @@ Cypress.Commands.add('start', ()=>{
     cy.visit('http://localhost:3000')
 })
 
+//Helpers:
+Cypress.Commands.add('login', ()=>{
+    cy.start()
+    cy.submitLoginForm('papito@webdojo.com', 'katana123')
+})
+
 Cypress.Commands.add('submitLoginForm', (email, senha)=>{
     // Steps de navegação comun na suite de login
     cy.get('#email').type(email)
@@ -45,3 +51,5 @@ Cypress.Commands.add('goTo', (pageTitle, buttonName)=>{
         cy.contains('h1', pageTitle)
             .should('be.visible')
 })
+
+
