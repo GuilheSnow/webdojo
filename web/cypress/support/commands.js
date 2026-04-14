@@ -24,6 +24,7 @@
 // -- This will overwrite an existing command --
 // Cypress.Commands.overwrite('visit', (originalFn, url, options) => { ... })
 import 'cypress-real-events'
+import './actions/consultancy.actions'
 
 Cypress.Commands.add('start', ()=>{
     // steps de config para acessar a url e configurar resolução

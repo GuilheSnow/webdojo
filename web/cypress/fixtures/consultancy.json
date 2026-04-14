@@ -1,0 +1,46 @@
+{
+  "personal": {
+    "name": "Teste da Silva Soares",
+    "email": "papito@webdojo.com",
+    "phone": "99 98765-4321",
+    "consultancyType": "Individual",
+    "personType": "CPF",
+    "document": "173.748.170-70",
+    "chanels": [
+      "Instagram",
+      "LinkedIn",
+      "Udemy",
+      "YouTube",
+      "Indicação de Amigo"
+    ],
+    "file": "./cypress/fixtures/document_test.pdf",
+    "description": "Lorem Ipsum é simplesmente uma simulação de texto da indústria tipográfica e de impressos utilizado desde o século XVI.",
+    "technologies": [
+      "Cypress",
+      "RobotFramework",
+      "Selenium",
+      "Python",
+      "JavaScript",
+      "AI-Testing"
+    ],
+    "terms": true
+  },
+  "company": {
+    "name": "Teste da Silva Soares",
+    "email": "papito@webdojo.com",
+    "phone": "99 98765-4321",
+    "consultancyType": "In Company",
+    "personType": "CNPJ",
+    "document": "36927489000199",
+    "chanels": [
+      "Indicação de Amigo"
+    ],
+    "file": "./cypress/fixtures/document_test.pdf",
+    "description": "Lorem Ipsum é simplesmente uma simulação de texto da indústria tipográfica e de impressos utilizado desde o século XVI.",
+    "technologies": [
+      "JavaScript",
+      "AI-Testing"
+    ],
+    "terms": true
+  }
+}
